@@ -1,0 +1,12 @@
+
+<html>
+    <head><title>Killer api</title></head>
+    <body>
+        <h1>Hello Django !</h1>
+        <p>Mes utilisateurs sont :
+            {% for user in users %}
+            {{ user.username }},
+            {% endfor %}
+        </p>
+    </body>
+</html>
